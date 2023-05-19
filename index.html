@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Booksopedia</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/book4.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <script defer src="./js/index.js"></script>
+   </head>
+   <body>
+      <!--header section start -->
+      <div class="header_section">
+         <div class="container-fluid">
+               <div class="main">
+                  <!-- <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div> -->
+                  <div class="menu_text">
+                     <ul>
+                        <!-- <div class="togle_">
+                           <div class="menu_main">
+                              <ul>
+                                 <li><a href="#">Login</a></li>
+                                 <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                              </ul>
+                           </div>
+                        </div> -->
+                        <div id="myNav" class="overlay">
+                           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                           <div class="overlay-content">
+                              <a href="index.html">Home</a>
+                              <a href="protect.html">Protect</a>
+                              <a href="about.html">About</a>
+                              <a href="doctors.html">Doctors</a>
+                              <a href="news.html">News</a>
+                           </div>
+                        </div>
+                        <span class="navbar-toggler-icon"></span>
+                        <span onclick="openNav()"><img src="images/toogle-icon.png" class="toggle_menu"></span>
+                        <span onclick="openNav()"><img src="images/toogle-icon1.png" class="toggle_menu_1"></span>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+      <!-- banner section start -->
+      
+      <div class="banner_section layout_padding ">
+         <section class="py-lg-5 text-lg-left container">
+            <!-- <div class="row py-lg-5"> -->
+              <!-- <div class="col-lg-6 col-md-8 mx-auto"> -->
+                <!-- <h1 class="fw-light">Album example</h1>
+                <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+                <p>
+                  <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                  <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                </p> -->
+                <div class="row">
+                  <div class="col-md-6">
+                     <div class="container" style="width: 50rem;">
+                        <h1 class="banner_taital">BooksOpedia</h1>
+                        <!-- <p class="banner_text fw-bold fs-4" >"What's in your mind is on our bookself"</p> -->
+                        <h5 class="banner_text fw-bold fs-2" style="font-family: 'Times New Roman', Times, serif">"What's in your mind is on our bookself"</h5>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="container">
+                        <span class="border ">
+                              
+                           <div class="card border border-warning border-3" style="width: 25rem;">
+                              <img src="images/image_books.jpeg" class="card-img-top" alt="...">
+                              
+                              <div class="card-body ">
+                                 <div class="mb-3">
+                                    <!-- <h5 class="display-4 fw-bold">Centered screenshot</h5> -->
+                                    <label for="exampleFormControlInput1" class="form-label fs-5 mb-3" style="font-family: 'Times New Roman', Times, serif"><b>Enter Book Name here</b></label>
+                                    <input type="text" class="form-control" id="BookNameInput" placeholder="">
+                                 </div>
+                                 <!-- <h5 class="card-title">Card title</h5> -->
+                                 <p class="card-text text-warning-emphasis fw-bold fs-4">"A Reader Lives a Thousand Lives, Before He Dies."</p>
+                                 <a href="#" class="btn btn-warning" id="submit">Go to Book</a>
+                              </div>
+                           </div>
+                        </span>
+                     </div> </div>
+                  
+               <!-- </div>  -->
+            <!-- </div>
+             -->
+          </section>
+         <!-- <div class="container">
+            <div class="card" style="width: 18rem;">
+               <img src="images/temp.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="https://www.amazon.in/CLOSER-INDIA-PB-Relationships-Connections/dp/1035015315/ref=sr_1_2_sspa?keywords=books&qid=1677250728&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="btn btn-primary">Go to Book</a>
+               </div>
+             </div> -->
+            <!-- <div id="my_slider" class="carousel slide" data-ride="carousel"> -->
+               <!-- <div class="carousel-inner"> -->
+                  <!-- <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="container">
+                              <h1 class="banner_taital">Book-O-Miner</h1>
+                              <p class="banner_text">"What's in your mind is on our bookself"</p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/temp.png"></div>
+                        </div>
+                     </div>
+                  </div> -->
+                  <!-- <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="container">
+                              <h1 class="banner_taital">Book-O-Miner</h1>
+                              <p class="banner_text">"What's in your mind is on our bookself"</p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/temp.png"></div>
+                        </div>
+                     </div>
+                  </div> -->
+                  <!-- <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="container">
+                              <h1 class="banner_taital">Book-O-Miner</h1>
+                              <p class="banner_text">"What's in your mind is on our bookself"</p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/temp.png"></div>
+                        </div>
+                     </div>
+                  </div> -->
+               <!-- </div> -->
+               <!-- <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+               <i class="fa fa-angle-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+               <i class="fa fa-angle-right"></i>
+               </a> -->
+            <!-- </div> -->
+         </div>            
+      </div>
+      <!-- banner section end -->
+      </div>
+      <!-- header section end -->
+      <!-- protect section start -->
+      <div class="protect_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="protect_taital">Let's Look Forward To Reading</h1>
+                  <h2 class="protect_text">Join 1000s of Happy Readers</h2>
+               </div>
+            </div>
+            <div class="protect_section_2 layout_padding">
+               <div class="row">
+                  <div class="col-md-6">
+                     <h1 class="hands_text"><a href="#">Discover new books & authors <br> frequently</a></h1>
+                     <h1 class="hands_text_2"><a href="#">Chat with our chatbot "Typewriter"  <br>to find your new favourites</a></h1>
+                     <h1 class="hands_text"><a href="#">Discover your new favourites<br> from your favourite authors</a></h1>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="image_2"><img src="images/img-2.png"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- protect section end -->
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about_img"><img src="images/img-1.png"></div>
+               </div>
+               <div class="col-md-6">
+                  <h1 class="temps_text"><a href="#">Explore and find your choice by seraching with genres</a></h1>
+                  <h1 class="temps_text_2"><a href="#">Find direct link<br>to ebooks/pdf download</a></h1>
+                  <h1 class="temps_text"><a href="#">Find links to best deals and from your favourite authors</a></h1>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="news_section layout_padding">
+         <div class="container">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <h1 class="news_taital">Author Diaries</h1>
+                     <h2 class="news_text">I Was Born To Tell Stories</h2>
+                     <div class="news_section_2 layout_padding">
+                        <div class="box_main">
+                           <div class="image_1"><img src="images/Aut2.jpeg"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                    <h1 class="news_taital">Author Diaries</h1>
+                     <h2 class="news_text">I Was Born To Tell Stories</h2>
+                     <div class="news_section_2 layout_padding">
+                        <div class="box_main">
+                           <div class="image_1"><img src="images/Aut1.jpeg"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <h1 class="news_taital">Author Diaries</h1>
+                      <h2 class="news_text">I Was Born To Tell Stories</h2>
+                      <div class="news_section_2 layout_padding">
+                         <div class="box_main">
+                            <div class="image_1"><img src="images/Aut3.jpeg"></div>
+                         </div>
+                      </div>
+                   </div>
+                  <div class="carousel-item">
+                    <h1 class="news_taital">Author Diaries</h1>
+                     <h2 class="news_text">I Was Born To Tell Stories</h2>
+                     <div class="news_section_2 layout_padding">
+                        <div class="box_main">
+                           <div class="image_1"><img src="images/Aut4.jpeg"></div>
+                        </div>
+                     </div>      
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-angle-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-angle-right"></i>
+               </a>
+            </div>
+            </div>
+         </div>
+      </div>
+      <!-- news section end -->
+      <!-- update section start -->
+      <div class="update_section">
+         <div class="container">
+            <h1 class="update_taital">Get your own, personalised recommendations:  </h1>
+            <form action="/action_page.php">
+               <div class="form-group">
+                   <textarea class="update_mail" placeholder="Enter Your E-mail" rows="5" id="comment" name="Enter Your E-mail"></textarea>
+               </div>
+               <div class="subscribe_bt"><a href="#">Subscribe Now</a></div>
+            </form>
+         </div>
+      </div>
+      <!-- update section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="footer_section_2">
+               <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">Resources</h2>
+                     <div class="footer_menu">
+                        <ul>
+                           <li><a href="#">What we do</a></li>
+                           <li><a href="#">Media</a></li>
+                           <li><a href="#">Travel Advice</a></li>
+                           <li><a href="#">Protection</a></li>
+                           <li><a href="#">Care</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">About</h2>
+                     <p class="footer_text">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various</p>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">Contact Us</h2>
+                     <div class="location_text">
+                        <ul>
+                           <li>
+                              <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                              <span class="padding_15">Location</span></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>
+                              <span class="padding_15">Call +01 1234567890</span></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>
+                              <span class="padding_15">demo@gmail.com</span></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">countrys</h2>
+                     <div class="map_image"><img src="images/map-bg.png"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>
+         $(document).ready(function(){
+         $(".fancybox").fancybox({
+         openEffect: "none",
+         closeEffect: "none"
+         });
+              
+         $(".zoom").hover(function(){
+              
+         $(this).addClass('transition');
+         }, function(){
+              
+         $(this).removeClass('transition');
+         });
+         });
+      </script> 
+      <script>
+         function openNav() {
+         document.getElementById("myNav").style.width = "100%";
+         }
+         function closeNav() {
+         document.getElementById("myNav").style.width = "0%";
+         }
+      </script>  
+     <script type="text/javascript">
+      (function(d, m){
+          var kommunicateSettings = 
+              {"appId":"2e3513cb011eb04d9b5048f084efd3362","popupWidget":true,"automaticChatOpenOnNavigation":true};
+          var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+          s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+          var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+          window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+  </script>
+   </body>
+</html>

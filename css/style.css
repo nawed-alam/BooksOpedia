@@ -1,0 +1,1359 @@
+[1:35 AM, 2/25/2023] Rathindra NIT: <!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Title</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/book4.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   </head>
+   <body>
+      <!--header section start -->
+      <div class="header_section">
+         <div class="container-fluid">
+               <div class="main">
+                  <!-- <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div> -->
+                  <div class="menu_text">
+                     <ul>
+                        <!-- <div class="togle_">
+                           <div class="menu_main">
+                              <ul>
+                                 <li><a href="#">Login</a></li>
+                                 <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                              </ul>
+                           </div>
+                        </div> -->
+                        <div id="myNav" class="overlay">
+                           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                           <div class="overlay-content">
+                              <a href="index.html">Home</a>
+                              <a href="protect.html">Protect</a>
+                              <a href="about.html">About</a>
+                              <a href="doctors.html">Doctors</a>
+                              <a href="news.html">News</a>
+                           </div>
+                        </div>
+                        <span class="navbar-toggler-icon"></span>
+                        <span onclick="openNav()"><img src="images/toogle-icon.png" class="toggle_menu"></span>
+                        <span onclick="openNav()"><img src="images/toogle-icon1.png" class="toggle_menu_1"></span>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+      <!-- banner section start -->
+      
+      <div class="banner_section layout_padding ">
+         <section class="py-lg-5 text-lg-left container">
+            <!-- <div class="row py-lg-5"> -->
+              <!-- <div class="col-lg-6 col-md-8 mx-auto"> -->
+                <!-- <h1 class="fw-light">Album example</h1>
+                <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+                <p>
+                  <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                  <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                </p> -->
+                <div class="row">
+                  <div class="col-md-6">
+                     <div class="container" style="width: 50rem;">
+                        <h1 class="banner_taital">Booksopedia</h1>
+                        <p class="banner_text">"What's in your mind is on our bookself"</p>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="container">
+                        <div class="card" style="width: 30rem;">
+                           <img src="images/temp.png" class="card-img-top" alt="...">
+            
+                           <div class="card-body">
+                             <div class="mb-3">
+                                 <!-- <h5 class="display-4 fw-bold">Centered screenshot</h5> -->
+                                 <label for="exampleFormControlInput1" class="form-label"><b>Enter Book Name here</b></label>
+                                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                               </div>
+                              <!-- <h5 class="card-title">Card title</h5> -->
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="https://www.amazon.in/CLOSER-INDIA-PB-Relationships-Connections/dp/1035015315/ref=sr_1_2_sspa?keywords=books&qid=1677250728&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="btn btn-primary">Go to Book</a>
+                           </div>
+                        </div>
+                     </div> </div>
+                  
+               <!-- </div>  -->
+            <!-- </div>
+             -->
+          </section>
+         <!-- <div class="container">
+            <div class="card" style="width: 18rem;">
+               <img src="images/temp.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="https://www.amazon.in/CLOSER-INDIA-PB-Relationships-Connections/dp/1035015315/ref=sr_1_2_sspa?keywords=books&qid=1677250728&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="btn btn-primary">Go to Book</a>
+               </div>
+             </div> -->
+            <!-- <div id="my_slider" class="carousel slide" data-ride="carousel"> -->
+               <!-- <div class="carousel-inner"> -->
+                  <!-- <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="container">
+                              <h1 class="banner_taital">Book-O-Miner</h1>
+                              <p class="banner_text">"What's in your mind is on our bookself"</p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/temp.png"></div>
+                        </div>
+                     </div>
+                  </div> -->
+                  <!-- <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="container">
+                              <h1 class="banner_taital">Book-O-Miner</h1>
+                              <p class="banner_text">"What's in your mind is on our bookself"</p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/temp.png"></div>
+                        </div>
+                     </div>
+                  </div> -->
+                  <!-- <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="container">
+                              <h1 class="banner_taital">Book-O-Miner</h1>
+                              <p class="banner_text">"What's in your mind is on our bookself"</p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/temp.png"></div>
+                        </div>
+                     </div>
+                  </div> -->
+               <!-- </div> -->
+               <!-- <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+               <i class="fa fa-angle-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+               <i class="fa fa-angle-right"></i>
+               </a> -->
+            <!-- </div> -->
+         </div>            
+      </div>
+      <!-- banner section end -->
+      </div>
+      <!-- header section end -->
+      <!-- protect section start -->
+      <div class="protect_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="protect_taital">Let's Look Forward To Reading</h1>
+                  <h2 class="protect_text">Join 1000s of Happy Readers</h2>
+               </div>
+            </div>
+            <div class="protect_section_2 layout_padding">
+               <div class="row">
+                  <div class="col-md-6">
+                     <h1 class="hands_text"><a href="#">Discover new books & authors <br> frequently</a></h1>
+                     <h1 class="hands_text_2"><a href="#">Chat with our chatbot "Typewriter"  <br>to find your new favourites</a></h1>
+                     <h1 class="hands_text"><a href="#">Discover your new favourites<br> from your favourite authors</a></h1>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="image_2"><img src="images/img-2.png"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- protect section end -->
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about_img"><img src="images/img-1.png"></div>
+               </div>
+               <div class="col-md-6">
+                  <h1 class="temps_text"><a href="#">Explore and find your choice by seraching with genres</a></h1>
+                  <h1 class="temps_text_2"><a href="#">Find direct link<br>to ebooks/pdf download</a></h1>
+                  <h1 class="temps_text"><a href="#">Find links to best deals and from your favourite authors</a></h1>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="news_section layout_padding">
+         <div class="container">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <h1 class="news_taital">Author Diaries</h1>
+                     <h2 class="news_text">I Was Born To Tell Stories</h2>
+                     <div class="news_section_2 layout_padding">
+                        <div class="box_main">
+                           <div class="image_1"><img src="images/Aut2.jpeg"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                    <h1 class="news_taital">Author Diaries</h1>
+                     <h2 class="news_text">I Was Born To Tell Stories</h2>
+                     <div class="news_section_2 layout_padding">
+                        <div class="box_main">
+                           <div class="image_1"><img src="images/Aut1.jpeg"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <h1 class="news_taital">Author Diaries</h1>
+                      <h2 class="news_text">I Was Born To Tell Stories</h2>
+                      <div class="news_section_2 layout_padding">
+                         <div class="box_main">
+                            <div class="image_1"><img src="images/Aut3.jpeg"></div>
+                         </div>
+                      </div>
+                   </div>
+                  <div class="carousel-item">
+                    <h1 class="news_taital">Author Diaries</h1>
+                     <h2 class="news_text">I Was Born To Tell Stories</h2>
+                     <div class="news_section_2 layout_padding">
+                        <div class="box_main">
+                           <div class="image_1"><img src="images/Aut4.jpeg"></div>
+                        </div>
+                     </div>      
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-angle-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-angle-right"></i>
+               </a>
+            </div>
+            </div>
+         </div>
+      </div>
+      <!-- news section end -->
+      <!-- update section start -->
+      <div class="update_section">
+         <div class="container">
+            <h1 class="update_taital">Get your own, personalised recommendations:  </h1>
+            <form action="/action_page.php">
+               <div class="form-group">
+                   <textarea class="update_mail" placeholder="Enter Your E-mail" rows="5" id="comment" name="Enter Your E-mail"></textarea>
+               </div>
+               <div class="subscribe_bt"><a href="#">Subscribe Now</a></div>
+            </form>
+         </div>
+      </div>
+      <!-- update section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="footer_section_2">
+               <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">Resources</h2>
+                     <div class="footer_menu">
+                        <ul>
+                           <li><a href="#">What we do</a></li>
+                           <li><a href="#">Media</a></li>
+                           <li><a href="#">Travel Advice</a></li>
+                           <li><a href="#">Protection</a></li>
+                           <li><a href="#">Care</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">About</h2>
+                     <p class="footer_text">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various</p>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">Contact Us</h2>
+                     <div class="location_text">
+                        <ul>
+                           <li>
+                              <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                              <span class="padding_15">Location</span></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>
+                              <span class="padding_15">Call +01 1234567890</span></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>
+                              <span class="padding_15">demo@gmail.com</span></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <h2 class="useful_text">countrys</h2>
+                     <div class="map_image"><img src="images/map-bg.png"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>
+         $(document).ready(function(){
+         $(".fancybox").fancybox({
+         openEffect: "none",
+         closeEffect: "none"
+         });
+              
+         $(".zoom").hover(function(){
+              
+         $(this).addClass('transition');
+         }, function(){
+              
+         $(this).removeClass('transition');
+         });
+         });
+      </script> 
+      <script>
+         function openNav() {
+         document.getElementById("myNav").style.width = "100%";
+         }
+         function closeNav() {
+         document.getElementById("myNav").style.width = "0%";
+         }
+      </script>  
+     <script type="text/javascript">
+      (function(d, m){
+          var kommunicateSettings = 
+              {"appId":"2e3513cb011eb04d9b5048f084efd3362","popupWidget":true,"automaticChatOpenOnNavigation":true};
+          var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+          s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+          var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+          window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+  </script>
+   </body>
+</html>
+[1:36 AM, 2/25/2023] Rathindra NIT: /--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------/
+
+
+/--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/***---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------***/
+
+
+/--------------------------------------------------------------------- import Files ---------------------------------------------------------------------/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------/
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden !important;
+}
+
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #111111;
+    margin: 0
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #212121;
+    text-decoration: none!important;
+    opacity: 1
+}
+
+button:focus {
+    outline: none;
+}
+
+ul,
+li,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+p {
+    margin: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+    outline: none !important;
+}
+
+a,
+.btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ :focus {
+    outline: 0;
+}
+
+.paddind_bottom_0 {
+    padding-bottom: 0 !important;
+}
+
+.btn-custom {
+    margin-top: 20px;
+    background-color: transparent !important;
+    border: 2px solid #ddd;
+    padding: 12px 40px;
+    font-size: 16px;
+}
+
+.lead {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767676;
+    margin: 0;
+    padding: 0;
+}
+
+.form-control:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+    border: none !important;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+blockquote {
+    margin: 20px 0 20px;
+    padding: 30px;
+}
+
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.full {
+    float: left;
+    width: 100%;
+}
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+
+/* header section start */
+
+.header_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/banner-bg.png);
+    height: auto;
+    height: auto;
+    padding: 20px 0px;
+    background-size: 100%;
+}
+
+.header_bg {
+    background-image: url(../images/header-bg.png);
+    background-size: 100% 100%;
+}
+
+.logo {
+    width: 86%;
+    float: left;
+    position: relative;
+}
+
+.menu_main {}
+
+.menu_main ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu_main li {
+    font-size: 20px;
+    color: #385a64;
+    float: left;
+}
+
+.menu_main li a {
+    color: #385a64;
+    padding-left: 20px;
+}
+
+.menu_main li a:hover {
+    color: #3674f2;
+}
+
+.bg-dark {
+    background-color: rgba( 54, 14, 14, 0.5)!important;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.toggle_menu {
+    top: 8px;
+    position: relative;
+    left: 0px;
+}
+.toggle_menu_1{
+    display: none;
+}
+
+.card{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.shoping_bag {
+    float: left;
+    text-align: center !important;
+    padding-left: 40px;
+    padding-top: 8px;
+}
+
+.togle_3 {
+    float: left;
+    width: 70%;
+}
+
+menu_text {
+    float: right;
+    width: 30%;
+}
+
+.search_icon {
+    width: 100%;
+    float: left;
+}
+
+
+/* header section end */
+
+
+/* banner section start */
+
+.banner_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 80px;
+}
+
+.banner_img {
+    width: 80%;
+    text-align: center;
+}
+
+.banner_taital {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #fef6fc;
+    font-weight: bold;
+    line-height: 50px;
+    padding-top: 30px;
+}
+
+.banner_text {
+    width: 80%;
+    float: left;
+    font-size: 30px;
+    color: #fef6fc;
+    margin: 20px 0px 0px 0px;
+}
+
+.card{
+    width: 100%;
+    
+    font-size: 15px;
+    text-align-last:center ;
+  
+    line-height: 0px;
+    padding-top: 0px;
+    
+    
+}
+.more_bt {
+    width: 150px;
+    float: left;
+    margin-top: 30px;
+}
+
+.more_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #a258ed;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+.more_bt a:hover {
+    color: #ffffff;
+    background-color: #3674f2;
+}
+
+#my_slider a.carousel-control-prev {
+    position: absolute;
+    left: -60px;
+    right: 0px;
+    top: 118%;
+}
+
+#my_slider a.carousel-control-next {
+    position: absolute;
+    left: 0px;
+    right: -60px;
+    top: 118%;
+
+}
+
+#my_slider .carousel-control-prev, 
+#my_slider .carousel-control-next {
+    width: 55px;
+    height: 55px;
+    background: #ffffff;
+    opacity: 1;
+    font-size: 30px;
+    color: #000;
+    border-radius: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+#my_slider .carousel-control-prev:hover,
+#my_slider .carousel-control-next:hover,
+#my_slider .carousel-control-prev:focus,
+#my_slider .carousel-control-next:focus {
+    background: #a258ed;
+    color: #ffffff;
+}
+
+
+/* banner section end */
+
+/* protect section start */
+
+.protect_section{
+    width: 100%;
+    float: left;
+}
+
+.protect_taital{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #081419;
+    font-weight: bold;
+    text-align: center;
+}
+
+.protect_text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #081419;
+    text-align: center;
+}
+
+.protect_section_2{
+    width: 100%;
+    float: left;
+}
+
+.hands_text {
+    width: 61%;
+    font-size: 30px;
+    color: #081419;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.hands_text a{
+    color: #081419;
+}
+
+.hands_text a:hover{
+    color: #a258ed;
+}
+
+.hands_text::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    left: initial;
+    right: -210px;
+    border: 1px solid #111111;
+}
+
+.hands_text_2 {
+    width: 50%;
+    font-size: 30px;
+    color: #081419;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 80px;
+}
+
+.hands_text_2 a{
+    color: #081419;
+}
+
+.hands_text_2 a:hover{
+    color: #a258ed;
+}
+
+.hands_text_2::after {
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 2px;
+    left: initial;
+    right: -160px;
+    border: 1px solid #111111;
+}
+
+/* protect section end */
+
+
+/* about section start */
+
+.about_section {
+    width: 100%;
+    float: left;
+    padding: 90px 0px;
+}
+
+.about_taital {
+    width: 60%;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: #151515;
+    padding-top: 30px;
+}
+
+.about_text {
+    width: 80%;
+    float: left;
+    font-size: 16px;
+    color: #151515;
+    margin: 0px;
+}
+
+.read_bt {
+    width: 150px;
+    float: left;
+    margin-top: 30px;
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3674f2;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+.read_bt a:hover {
+    color: #ffffff;
+    background-color: #a258ed;
+}
+
+.about_tag {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about_taital_main{
+    width: 100%;
+    float: left;
+    padding: 100px 0px;
+}
+.about_menu{
+    width: 100%;
+    float: left;
+}
+.about_menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.temps_text {
+    width: 50%;
+    font-size: 30px;
+    color: #081419;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 80px;
+}
+
+.temps_text a{
+    color: #081419;
+}
+
+.temps_text a:hover{
+    color: #a258ed;
+}
+
+.temps_text::after {
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 2px;
+    left: initial;
+    right: 230px;
+    border: 1px solid #111111;
+}
+
+.temps_text_2 {
+    width: 50%;
+    font-size: 30px;
+    color: #081419;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 80px;
+}
+
+.temps_text_2 a{
+    color: #081419;
+}
+
+.temps_text_2 a:hover{
+    color: #a258ed;
+}
+.temps_text_2::after {
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 2px;
+    left: initial;
+    right: 230px;
+    border: 1px solid #111111;
+}
+
+.about_menu li a{
+    color: #ffffff;
+}
+.about_menu li a:hover{
+    color: #000;
+}
+
+
+
+/* about section end */
+
+
+
+/* news section start */
+
+.news_section {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-size: 100%;
+    padding-bottom: 190px;
+    background-repeat: no-repeat;
+}
+
+.news_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #081419;
+    text-align: center;
+    font-weight: bold;
+}
+
+.news_text {
+    width: 60%;
+    margin: 0 auto; 
+    font-size: 16px;
+    color: #151515;
+    text-align: center;
+}
+
+.news_section_2 {
+    width: 100%;
+    float: left;   
+}
+
+.box_main {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: auto;
+    box-shadow: 0px 0px 8px 0px;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 20px;
+}
+
+.image_1 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+
+.lorem_text {
+    width: 100%;
+    font-size: 16px;
+    color: #081419;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.read_btn {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    top: 20px;
+    position: relative;
+}
+
+.read_btn a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3674f2;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 30px;
+}
+
+.read_btn a:hover {
+    color: #ffffff;
+    background-color: #a258ed;
+}
+
+.design_text {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #151515;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: -60px;
+    right: 0px;
+    top: 105%;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 0px;
+    right: -60px;
+    top: 105%;
+    background: #7d56c9;
+    color: #ffffff;
+}
+
+#main_slider .carousel-control-prev, 
+#main_slider .carousel-control-next {
+    width: 55px;
+    height: 55px;
+    background: #ffffff;
+    opacity: 1;
+    font-size: 30px;
+    color: #000;
+    border-radius: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+#main_slider .carousel-control-prev:hover,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-next:focus {
+    background: #7d56c9;
+    color: #ffffff;
+}
+
+
+/* news section end */
+
+/* update section start */
+
+.update_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 100px;
+}
+
+.update_taital{
+    width: 100%;
+    font-size: 40px;
+    color: #242424;
+    text-align: center;
+    font-weight: bold;
+}
+
+.update_mail {
+    color: #969695;
+    width: 60%;
+    height: 55px;
+    font-size: 18px;
+    padding: 10px 20px 0px 20px;
+    background-color: transparent !important;
+    border: 1px solid #5e90f4 !important;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 30px;
+}
+
+textarea#comment::placeholder {
+    color: #969695;
+}
+
+
+.subscribe_bt {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.subscribe_bt a {
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 0px;
+    background-color: #250d52;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subscribe_bt a:hover {
+    color: #ffffff;
+    background-color: #3674f2;
+}
+
+/* update section end */
+
+/* footer section start */
+
+.footer_section {
+    width: 100%;
+    float: left;
+    background-color: #250d52;
+    height: auto;
+    padding: 60px 0px 100px 0px;
+}
+
+.footer_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+.useful_text {
+    width: 100%;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer_text {
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    color: #ffffff;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.footer_menu {
+    width: 100%;
+    float: left;
+}
+
+.footer_menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer_menu li {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer_menu li a {
+    color: #ffffff;
+}
+
+.footer_menu li a:hover {
+    color: #3674f2;
+}
+
+.location_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fffcfc;
+    padding-top: 10px;
+}
+
+.useful_text {
+    padding-top: 30px;
+}
+
+.footer_section_2 {
+    padding-top: 20px;
+}
+
+.location_text a {
+    color: #fffcfc;
+}
+
+.location_text a:hover {
+    color: #3674f2;
+}
+
+.padding_15 {
+    padding-left: 10px;
+}
+
+
+/* footer section end */
+
+/* copyright section start */
+
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.copyright_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    margin: 20px 0px;
+    text-align: center;
+}
+.copyright_text a {
+    color: #000;
+}
+
+.copyright_text a:hover {
+    color: #3674f2;
+}
+
+
+/* copyright section end */
+
+.margin_top90{
+    margin-top: 90px;
+}
